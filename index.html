@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七日天氣預報</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align:center;">臺北市七日天氣預報</h1>
+    <div style="display:flex; justify-content:center; margin:24px 0;">
+        <select id="district-select">
+            <option value="">請選擇臺北市地區</option>
+            <!-- 地區選項由 script.js 動態產生 -->
+        </select>
+    </div>
+    <div id="weather-forecast" class="weather-container" style="display:none;">
+        <!-- cards -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
